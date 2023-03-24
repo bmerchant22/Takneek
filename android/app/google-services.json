@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "242564480240",
+    "firebase_url": "https://takneek-9ccbd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "takneek-9ccbd",
+    "storage_bucket": "takneek-9ccbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242564480240:android:729cf25b8d58274f525635",
+        "android_client_info": {
+          "package_name": "com.example.myfirstapp_bm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242564480240-qtdsbou9tki2dg8apsfm8hurnrbj19bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy12GiqS7i9tyzGqyQ5dKnrCsA3bczxys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242564480240-qtdsbou9tki2dg8apsfm8hurnrbj19bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
