@@ -1,10 +1,10 @@
+import 'package:flutter/foundation.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:myfirstapp_bm/components/profile.dart';
 import 'package:myfirstapp_bm/components/signup.dart';
 import 'package:myfirstapp_bm/utils/routes.dart';
-
 import 'firebase_options.dart';
 
 void main() async {
@@ -80,6 +80,7 @@ fetchData() {
     stream: _usersStream,
     builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
       if (snapshot.hasError) {
+        debugPrint("error in fetching data : $snapshot ");
         return const Text('Something went wrong');
       }
 

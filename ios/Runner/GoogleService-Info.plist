@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>242564480240-eofhf340uimvn3r54mqrtk352ve4i1ma.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.242564480240-eofhf340uimvn3r54mqrtk352ve4i1ma</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAvVtDEYhBKXL0ur9aEKgg5uAtLX81ZxbI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>242564480240</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.myfirstappBm</string>
+	<key>PROJECT_ID</key>
+	<string>takneek-9ccbd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>takneek-9ccbd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:242564480240:ios:5c361851188c70da525635</string>
+	<key>DATABASE_URL</key>
+	<string>https://takneek-9ccbd-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

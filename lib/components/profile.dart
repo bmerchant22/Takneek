@@ -6,7 +6,7 @@ class MyProfile extends StatelessWidget {
 
   MyProfile({required this.Name, required this.Roll_no, required this.Hall, required this.Github_ID});
   final Name;
-  final Roll_no ;
+  final Roll_no;
   final Hall;
   final Github_ID;
 
