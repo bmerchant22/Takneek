@@ -34,7 +34,7 @@ class MyProfile extends StatelessWidget {
                color: Colors.white,
                image: DecorationImage(
                    fit: BoxFit.fill,
-                   image: NetworkImage('https://drive.google.com/uc?export=view&id=1S0TGvsRt36V1SZ7kcn4wOMZWBdY3aHEm'),
+                   image: NetworkImage('https://static.vecteezy.com/system/resources/thumbnails/007/461/014/small/profile-gradient-logo-design-template-icon-vector.jpg'),
                ),
              ),
            ),

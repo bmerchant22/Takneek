@@ -40,6 +40,7 @@ class _AddUserState extends State<AddUser> {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.red,
         title: const Text(
           "Sign up",
         ),
@@ -80,7 +81,6 @@ class _AddUserState extends State<AddUser> {
                     ),
                       TextFormField(
                         controller: _controllerRoll_no,
-                        obscureText: true,
                         decoration: const InputDecoration(
                           hintText: "Enter roll no.",
                           labelText: "Roll no.",
@@ -89,7 +89,7 @@ class _AddUserState extends State<AddUser> {
                           if(value == null || value.isEmpty ){
                             return "This field cannot be empty";
                           } else if(value.length<6){
-                            return "Password cannot be less than 6 letters";
+                            return "Roll no. cannot be less than 6 letters";
                           }
                           return null;
                         },
